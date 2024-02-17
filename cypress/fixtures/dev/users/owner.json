@@ -1,0 +1,30 @@
+{
+    "password": "Secure@123",
+    "email": "fcx.tester+owner@gmail.com",
+    "id": "fcx.tester+owner@gmail.com",
+    "mobile": "0411111111",
+    "title": "Mrs",
+    "firstName": "Fcx",
+    "lastName": "Owner",
+    "middleName": "Echo",
+    "dob": "21/12/2001",
+    "addressLine1": "Unit 1",
+    "addressLine2": "18 Crocker Drive",
+    "suburb": "Malaga",
+    "state": "Western Australia",
+    "stateAbreviated": "WA",
+    "postcode": "6090",
+    "companies": [
+        {
+            "name": "IC Trading Co",
+            "roles": {
+                "admin": true,
+                "readAccess": false,
+                "capRaise": true,
+                "eSOP": true,
+                "signatory": true,
+                "sendEmail": false
+            }
+        }
+    ]
+}

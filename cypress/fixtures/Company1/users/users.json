@@ -1,0 +1,45 @@
+{
+  "investors": [
+    {
+      "password": "EbOF4J#MVPCQL!",
+      "email": "echo.investor.elaine@fcx.com.au",
+      "id": "echo.investor.elaine@fcx.com.au",
+      "mobile": "0411111152",
+      "title": "Mrs",
+      "firstName": "Elaine",
+      "lastName": "Cypress",
+      "middleName": "Echo",
+      "dob": "23/03/1955",
+      "addressLine1": "5 Elderwood End",
+      "addressLine2": "",
+      "suburb": "Echidna",
+      "state": "Western Australia",
+      "stateAbreviated": "WA",
+      "postcode": "6020",
+      "joint": {
+        "email": "echo.investor.eric@fcx.com.au",
+        "mobile": "0411111155",
+        "title": "Mr",
+        "firstName": "Eric",
+        "lastName": "Edmen",
+        "middleName": "Echo",
+        "dob": "23/07/1958",
+        "addressLine1": "7 Elkwood Elop",
+        "addressLine2": "",
+        "suburb": "Eppermint",
+        "state": "Western Australia",
+        "stateAbreviated": "WA",
+        "postcode": "6033"
+      }
+    }
+  ],
+  "owner": {
+    "password": "EaOF4J#MVPCQL!",
+    "email": "echo.issuerOwner.eric@fcx.com.au",
+    "id": "echo.issuerOwner.eric@fcx.com.au",
+    "mobile": "0411111151",
+    "firstName": "Eric",
+    "lastName": "Cypress",
+    "middleName": "echo"
+  }
+}

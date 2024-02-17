@@ -1,0 +1,38 @@
+{
+    "password": "Secure@123",
+    "email": "fcx.tester+datestamp@gmail.com",
+    "id": "fcx.tester+datestamp@gmail.com",
+    "mobile": "0411 111 003",
+    "title": "Mr",
+    "firstName": "Individual",
+    "middleName": "datestamp",
+    "lastName": "Investor",
+    "dateOfBirth": "21/12/2002",
+    "addressLine1": "Unit 1, Level 8",
+    "addressLine2": "1 Mill Street",
+    "suburb": "Perth",
+    "state": "Western Australia",
+    "stateAbreviated": "WA",
+    "postcode": "6000",
+    "Country": "Australia",
+    "address": {
+        "flatNumber": "1",
+        "streetNumber": "1",
+        "streetName": "Mill",
+        "streetType": "Street",
+        "citySuburb": "Perth",
+        "state": "Western Australia",
+        "postcode": "6000",
+        "Country": "Australia"
+    },
+    "previousAddress": {
+        "flatNumber": "",
+        "streetNumber": "",
+        "streetName": "",
+        "streetType": "",
+        "citySuburb": "",
+        "state": "",
+        "postcode": "",
+        "Country": "Australia"
+    }
+}

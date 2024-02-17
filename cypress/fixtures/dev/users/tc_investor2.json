@@ -1,0 +1,39 @@
+{
+    "password": "Secure@123",
+    "email": "fcx.tester+alpha_delta@gmail.com",
+    "id": "fcx.tester+alpha_delta@gmail.com",
+    "mobile": "0411 111 001",
+    "title": "Mr",
+    "firstName": "Alpha",
+    "middleName": "B. Charlie",
+    "lastName": "Delta",
+    "dateOfBirth": "1/1/1970",
+    "addressLine1": "123 Sample Street",
+    "addressLine2": "",
+    "suburb": "Sydney",
+    "state": "New South Wales",
+    "stateAbreviated": "NSW",
+    "postcode": "2000",
+    "Country": "Australia",
+    "address": {
+        "flatNumber": "",
+        "streetNumber": "123",
+        "streetName": "Sample",
+        "streetType": "Street",
+        "citySuburb": "Sydney",
+        "state": "New South Wales",
+        "postcode": "2000",
+        "Country": "Australia"
+    },    
+    "previousAddress": {
+        "flatNumber": "1",
+        "streetNumber": "1",
+        "streetName": "Mill",
+        "streetType": "Street",
+        "citySuburb": "Perth",
+        "state": "Western Australia",
+        "postcode": "6000",
+        "Country": "Australia"
+    }
+
+}

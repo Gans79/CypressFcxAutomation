@@ -1,0 +1,62 @@
+{
+  "name": "fcx-cypress",
+  "version": "0.0.1",
+  "description": "FCX E2E automated test suite using Cucumber",
+  "main": " ",
+  "scripts": {
+    "db:reset": "echo \"# TODO: Reset database scripts (dump & import?)\"",
+    "open:local": "cypress open -C cypress.local.config.ts",
+    "run:local": "cypress run --browser chrome -C cypress.local.config.ts",
+    "open:dev": "cypress open -C cypress.dev.config.ts",
+    "run:dev": "cypress run --browser chrome -C cypress.dev.config.ts",
+    "open:test": "cypress open -C cypress.test.config.ts",
+    "run:test": "cypress run --browser chrome -C cypress.test.config.ts",
+    "run:dev:record": "cypress run --browser chrome --record --key 9d9fb9e0-8888-418c-911c-1d2324c90cba -C cypress.dev.config.ts",
+    "build:dev": "npm run db:reset && export NODE_ENV=\"development\" && next build",
+    "start:dev": "export NODE_ENV=\"development\" && next start",
+    "cypress:start": "start-server-and-test 'npm run start:test' 3000 'npm run cypress:open'",
+    "cypress:build": "npm run build:dev && npm run cypress:start",
+    "reports": "node cucumber-html-report.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.15.7",
+    "@cypress/xpath": "^2.0.3",
+    "@testing-library/cypress": "^9.0.0",
+    "cypress": "^12.5.1",
+    "cypress-multi-reporters": "^1.6.2",
+    "env-cmd": "^10.1.0",
+    "mocha-junit-reporter": "^2.2.0",
+    "mochawesome": "^7.1.3",
+    "multiple-cucumber-html-reporter": "^3.1.0",
+    "otplib": "^12.0.1",
+    "pg": "^8.10.0",
+    "start-server-and-test": "^1.15.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "cypress-fail-fast": "^7.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "luxon": "^3.2.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "nonGlobalStepBaseDir": "cypress/e2e",
+    "stepDefinitions": "cypress/e2e/**/*.{js,ts,tsx}",
+    "json": {
+      "enabled": true,
+      "formatter": "./bin/cucumber-json-formatter",
+      "outputFolder": "results/cucumber-json",
+      "output": "results/cucumber-json/cucumber-report.json"
+    }
+  },
+  "keywords": [
+    "Cypress",
+    "Cucumber",
+    "FCX",
+    "FinClear"
+  ]
+}

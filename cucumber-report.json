@@ -1,0 +1,84 @@
+[
+  {
+    "description": "  I want to onboard new user(s)",
+    "elements": [
+      {
+        "description": "",
+        "id": "onboarding;user-registration---check-does-not-send-token-details",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "User registration - check does not send token details",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "a user browsers to FCX app",
+            "result": {
+              "duration": 2190000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "'Log In' title page is displayed",
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 9,
+            "name": "'Create New Account' button is pressed",
+            "result": {
+              "duration": 403000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "'Register' title page is displayed",
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 4,
+            "name": "@PLX-2950"
+          },
+          {
+            "line": 4,
+            "name": "@DEV"
+          },
+          {
+            "line": 4,
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "id": "onboarding",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Onboarding",
+    "uri": "cypress/e2e/features/01_onboarding/01_new_account.feature"
+  }
+]

@@ -1,0 +1,16 @@
+First Name,Middle Name,Last Name,Email,Address Line 1,Address Line 2,Suburb,State,Postcode,Country,Position,Department,Work Number,Number of Securities
+2MandatoryFields,,LastnameA,emailA@gmail.com,AddressLine1A,,SuburbA,WA,,Australia,,,,
+3AllFields,MiddlenameB,LastnameB,emailB@gmail.com,Address Line 1 B,Address Line 2 B,SuburbB,NSW,1234,Italy,PositionB,DepartmentB,123456789,500
+4InvalidEmailF,,LastnameC,emailC@gmail.com,Address Line 1 C,,SuburbC,VIC,,Australia,,,,
+5MissingLastnameF,,LastnameD,emailD@gmail.com,Address Line 1D,,SuburbD,VIC,,Australia,,,,
+6MissingEmailF,,LastnameE,emailE@gmail.com,AddressLine1E,,SuburbE,WA,,Australia,,,,
+7MissingAddressLine1F,,LastnameF,emailF@gmail.com,AddressLine1F,,SuburbF,TAS,,Australia,,,,
+8MissingSuburbF,,LastnameG,emailG@gmail.com,AddressLine1G,,SuburbG,TAS,,Australia,,,,
+9MissingStateF,,LastnameH,emailH@gmail.com,AddressLine1H,,SuburbH,WA,,Australia,,,,
+10MissingCountryF,,LastnameI,emailI@gmail.com,AddressLine1I,,SuburbI,WA,,Australia,,,,
+11ZeroSecuritiesF,,LastnameJ,emailJ@gmail.com,AddressLine1J,,SuburbJ,WA,,Australia,,,,1
+12RepeatedEmailAF,,LastnameK,emailAA@gmail.com,AddressLine 1K,,SuburbK,VIC,1234,Australia,PositionK,DepartmentK,,1000
+13GoodData,MiddleNameL,LastnameL,deborah.dowson+2@fincleartech.com.au,AddressLine1L,Address Line 2L,SuburbL,WA,6000,Australia,PositionL,DepartmentL,987654321,2000
+14GoodData,,LastnameM,emailM@gmail.com,AddressLine 1M,,Suburb M,NSW,2000,Australia,PostionM,DepartmentM,,3000
+Test,Dev,Employee2,fcx.tester+employee2@gmail.com,AddressLine 1M,,Suburb M,NSW,2000,Australia,PostionM,Engineering,,3000
+Test,Dev3,Employee3,fcx.tester+employee3@gmail.com,AddressLine 1M,,Suburb M,NSW,2000,Australia,PostionM,Engineering,,3000

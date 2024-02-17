@@ -1,0 +1,23 @@
+{
+  "companyName": "Echo Org",
+  "acn": "55 55 5555",
+  "addressLine1": "55 Echo Road",
+  "suburb": "Elixir",
+  "postcode": "6001",
+  "state": "WA",
+  "stateLabel": "Western Australia",
+  "country": "Australia",
+  "phoneNumber": "0411111115",
+  "managementRoles": [{ "name": "Eric Cypress", "role": "CEO" }],
+  "securityClasses": [
+    {
+      "securityType": "A-CLASS",
+      "identifier": "A-CLASS",
+      "description": "A-CLASS"
+    },
+    { "securityType": "ORD", "description": "ORD", "identifier": "ORD" },
+    { "securityType": "OPT", "identifier": "OPT", "description": "OPT" }
+  ],
+  "websiteUrl": "https://echo.org.au",
+  "description": "This is a test company used purely for Cypress end-to-end testing."
+}

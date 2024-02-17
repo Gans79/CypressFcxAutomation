@@ -1,0 +1,13 @@
+# Generated files
+.DS_Store
+node_modules/
+# Execution outputs
+results/
+cucumber-json-formatter
+cucumber-messages.ndjson
+cypress/downloads/*.pdf
+cypress/downloads/*.csv
+cypress/fixtures/dev/users/temp_datestamp_investorOTP.json
+.idea/
+.vscode/
+*.iml

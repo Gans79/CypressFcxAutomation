@@ -1,0 +1,16 @@
+{
+  "type": "individual",
+  "email": "fcx.tester+individual_investor1@fcx.com.au",
+  "firstName": "EmpFirstname1",
+  "lastName": "EmpLastname1",
+  "middleName": "EmpMiddlename1",
+  "addressLine1": "Unit 1",
+  "addressLine2": "18 Crocker Drive",
+  "suburb": "Malaga",
+  "country": "Australia",
+  "state": "Western Australia",
+  "postcode": "6090",
+  "contactNumber": "0411 111 003",
+  "hasEmployeeHolding": true,
+  "employeeNameSameAsAbove": true
+}

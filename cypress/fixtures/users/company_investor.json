@@ -1,0 +1,19 @@
+{
+  "type": "company",
+  "companyName": "Investor Company",
+  "companyAcn": "11 22 3344",
+  "contactPerson": "Test Person",
+  "email": "fcx.tester+company_investor@fcx.com.au",
+  "addressLine1": "Unit 1",
+  "addressLine2": "18 Crocker Drive",
+  "suburb": "Malaga",
+  "country": "Australia",
+  "state": "Western Australia",
+  "postcode": "6090",
+  "contactNumber": "0411 111 003",
+  "hasEmployeeHolding": true,
+  "employeeNameSameAsAbove": false,
+  "employeeFirstName": "EmpFirstname2",
+  "employeeLastName": "EmpLastname2",
+  "employeeMiddleName": "EmpMiddlename2"
+}

@@ -1,0 +1,40 @@
+{
+    "companyName": "IC Trading Co",
+    "acn": "12 34 5678",
+    "phoneNumber": "0421111111",
+    "websiteUrl": "https://echo.org.au",
+    "addressLine1": "Level 8",
+    "addressLine2": "5 Mill Street",
+    "suburb": "Perth",
+    "postcode": "6000",
+    "state": "Western Australia",
+    "country": "Australia",
+    "description": "This is a test company used for Cypress end-to-end testing.",
+    "managementRoles": [
+        {
+            "fullName": "Dev Owner",
+            "role": "CEO",
+            "signature": "../fixtures/signature2.jpg",
+            "certificateSignatory": true
+        }
+    ],
+    "enableOnlineSharesCertificate": true,
+    "securityClasses": [
+        {
+            "securityType": "Ordinary",
+            "identifier": "ORD1",
+            "description": "Ordinary shares - Tranche #1"
+        },
+        {
+            "securityType": "CLASS-A",
+            "description": "CLSA",
+            "identifier": "Class A shares"
+        },
+        {
+            "securityType": "Options",
+            "identifier": "OPT1",
+            "description": "Options 2023Q1"
+        }
+    ],
+    "companyLogo": "../fixtures/dev/companies/ic_trading_co_logo.png"
+}

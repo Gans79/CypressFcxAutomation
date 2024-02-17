@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowJs": true,
+    "types": ["cypress", "@testing-library/cypress", "@cypress/xpath"]
+  },
+  "include": ["**/*.ts", "**/*.tsx", "jest.setup.js"],
+  "exclude": ["node_modules", "cypress"]
+}

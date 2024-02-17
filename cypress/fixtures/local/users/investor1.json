@@ -1,0 +1,17 @@
+{
+    "password": "Secure@123",
+    "email": "fcx.tester+investor1@gmail.com",
+    "id": "fcx.tester+investor1@gmail.com",
+    "mobile": "0411111112",
+    "title": "Mr",
+    "firstName": "Dev",
+    "lastName": "Investor1",
+    "middleName": "Charlie",
+    "dob": "21/12/2002",
+    "addressLine1": "Unit 1",
+    "addressLine2": "18 Crocker Drive",
+    "suburb": "Malaga",
+    "state": "Western Australia",
+    "stateAbreviated": "WA",
+    "postcode": "6090"
+}

@@ -1,0 +1,30 @@
+{
+    "password": "Finclear1!",
+    "email": "fcx.test.tester+owner@finclear.com.au",
+    "id": "fcx.test.tester+owner@finclear.com.au",
+    "mobile": "0411111111",
+    "title": "Mrs",
+    "firstName": "Fcx",
+    "lastName": "Owner",
+    "middleName": "Echo",
+    "dob": "21/12/2001",
+    "addressLine1": "Unit 1",
+    "addressLine2": "18 Crocker Drive",
+    "suburb": "Malaga",
+    "state": "Western Australia",
+    "stateAbreviated": "WA",
+    "postcode": "6090",
+    "companies": [
+        {
+            "name": "IC Trading Co",
+            "roles": {
+                "admin": true,
+                "readAccess": false,
+                "capRaise": true,
+                "eSOP": true,
+                "signatory": true,
+                "sendEmail": false
+            }
+        }
+    ]
+}

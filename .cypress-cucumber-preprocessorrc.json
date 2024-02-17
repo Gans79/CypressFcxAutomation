@@ -1,0 +1,17 @@
+{
+    "json": {
+        "enabled": false,
+        "output": "results/cucumber-json/cucumber-log.json",
+        "formatter": "./bin/cucumber-json-formatter.exe"
+    },
+    "messages": {
+        "enabled": false,
+        "output": "results/cucumber-json/cucumber-messages.ndjson"
+    },
+    "html": {
+        "enabled": false
+    },
+    "nonGlobalStepDefinitions": true,
+    "nonGlobalStepBaseDir": "cypress/e2e",
+    "stepDefinitions": "cypress/e2e/**/*.ts"
+}
